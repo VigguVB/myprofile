@@ -1,5 +1,6 @@
 .div{
     width: 90%;
+    max-width: 100%;
     height: 120px;
     border-radius: 14px;
     box-shadow: 5px 10px 8px 5px#888888;
@@ -12,9 +13,12 @@
     font-size: 35px;
     text-align: center;
     text-shadow: 2px 2px violet;
+    max-width: 100%;
+
 }
 .profileimg{
     width: 400px;
+    max-width: 100%;
     height: 400px;
     margin-top: 1rem;
     border-radius: 360px;
@@ -23,13 +27,15 @@
 }
 .details{
     font-size: 18px;
+    max-width: 100%;
     justify-content: center;
     padding: 0.5rem;
     color: rgb(93, 11, 224);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .infoDiv{
-    width: 90%;;
+    width: 90%;
+    max-width: 100%;
     border-radius: 14px;
     box-shadow: 5px 10px 8px 5px#888888;
     background-color: white;
@@ -38,7 +44,8 @@
     margin-bottom: 1rem;
 }
 .skillshow{
-    width: 88%;;
+    width: 88%;
+    max-width: 100%;
     border-radius: 14px;
     box-shadow: 5px 10px 8px 5px#888888;
     background-color: white;
@@ -53,16 +60,58 @@
 }
 .skillimg{
     padding: 1rem;
+    max-width: 100%;
     box-shadow: 5px 10px 8px 5px#888888;
 }
 .linksdiv{
     display: flex;
+    max-width: 100%;
 }
 .links{
     padding-left: 21rem;
+    max-width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 50px;
     height: 50px;
+}
+.projectContainer{
+    width: 36%;
+    height: 350px;
+    margin: 2%;
+    margin-left: 6.5%;
+    float: left;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 2px 12px black;
+}
+.img{
+    width: 100%;
+    border-radius: 6px;
+    height: 250px;
+}
+.img>img{
+    border-radius: 6px;
+}
+.button-container{
+    width: 98%;
+    height: 95px;
+    margin: 1%;
+}
+.btn{
+    width: 160px;
+    height: 40px;
+    border: 2px groove #2929fc;
+    color: #2929fc;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 4px;  
+}
+.btn:hover{
+    background-color: #2929fc;
+    color: white;
+    border: 2px groove #2929fc;
 }
 
