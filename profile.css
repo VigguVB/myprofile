@@ -75,11 +75,16 @@
     width: 50px;
     height: 50px;
 }
+.infoDiv2{
+    height: 420px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .projectContainer{
-    width: 36%;
+    width: 34%;
     height: 350px;
     margin: 2%;
-    margin-left: 6.5%;
+    margin-left: 8%;
     float: left;
     border-radius: 6px;
     background-color: white;
